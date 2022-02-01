@@ -103,3 +103,8 @@ img {
     width: 50%;
     height: auto;
 }
+
+img{
+    filter: drop-shadow(5px 5px 5px #161818);
+    border-radius: 10%;
+}
