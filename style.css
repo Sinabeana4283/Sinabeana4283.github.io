@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #F0EAE3;
-    font-family: 'DM Sans', sans-serif;
+    background-color: #F0EAE3!important;
+    font-family: 'DM Sans', sans-serif!important;
 
 }
 
@@ -61,6 +61,7 @@ img {
 .nav {
     font-weight: 900;
     margin: 2em 0 0em 0;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .nav a{
