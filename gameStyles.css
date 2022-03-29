@@ -1,8 +1,8 @@
 
 body {
-  background-color: #F0EAE3!important;
-  font-family: 'DM Sans', sans-serif!important;
-  overflow-y: scroll;
+  background-color: #F0EAE3;
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
 
 }
 /* For mobile phones: */
