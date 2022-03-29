@@ -3,7 +3,9 @@
     box-sizing: border-box;
 
 }
-
+.right{
+    text-align: right;
+}
 body {
     background-color: #F0EAE3;
     font-family: 'DM Sans', sans-serif;
