@@ -1,0 +1,120 @@
+/** Grid system - https://www.w3schools.com/css/css_rwd_grid.asp **/
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #F0EAE3!important;
+    font-family: 'DM Sans', sans-serif!important;
+
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+ 
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/** Image - https://www.w3schools.com/css/css_rwd_grid.asp **/   
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/** Overflow (for tables) - https://www.w3schools.com/howto/howto_css_table_responsive.asp **/
+.overflow {
+    overflow-x:auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.nav {
+    font-weight: 900;
+    margin: 2em 0 0em 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.nav a{
+    text-decoration: none; 
+    color: rgba(0,0,0,0.65);
+}
+
+.nav a:hover{
+    color: rgba(0,0,0,1);
+}
+
+#backgroundShape {
+    z-index: -1;
+    position: absolute;
+    top: -50%;
+    left: 85%;
+    height: 60vh;
+    width: 30vw;
+    border-radius: 50%;
+    -webkit-filter: blur(100px);
+    filter: blur(100px);
+}
+.logo{
+    color: rgba(0,0,0,1) !important;
+    font-size: 4em; 
+    margin: -20px 1em -20px 0px;
+}
+.content {
+    border-radius: 6px;
+    padding: 5%;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+}
+
+.right{
+    text-align: right;
+}
+
+.scaleDown{
+    width: 50%;
+    height: auto;
+}
+
+img{
+    filter: drop-shadow(5px 5px 5px #161818);
+    border-radius: 10%;
+}
+
+
+
+
+
+
+
+
+
