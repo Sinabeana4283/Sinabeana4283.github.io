@@ -90,15 +90,15 @@
     animation: 14s slideshow-contrast -5s infinite;
 }
 .slideshow--contrast .slide1 {
-    background-image: linear-gradient(to bottom, rgba(2, 3, 21, 0.25) 0, rgba(186, 23, 5, 0.5) 100%), url(Luna.png);
+    background-image: linear-gradient(to bottom, rgba(2, 3, 21, 0.25) 0, rgba(186, 23, 5, 0.5) 100%), url(../img/Luna.png);
     animation: 20s slides-set-1 -0.2s infinite;
 }
 .slideshow--contrast .slide2 {
-    background-image: linear-gradient(to bottom, rgba(158, 75, 200, 0.25) 0, rgba(23, 0, 114, 0.5) 100%), url(spacebar.jpg);
+    background-image: linear-gradient(to bottom, rgba(158, 75, 200, 0.25) 0, rgba(23, 0, 114, 0.5) 100%), url(../img/spacebar.jpg);
     animation: 20s slides-set-2 -0.2s infinite;
 }
 .slideshow--contrast .slide3 {
-    background-image: linear-gradient(to bottom, rgba(6, 3, 23, 0.427) 0, rgba(0, 120, 116, 0.609) 100%), url(concept.png);
+    background-image: linear-gradient(to bottom, rgba(6, 3, 23, 0.427) 0, rgba(0, 120, 116, 0.609) 100%), url(../img/shroom.png);
 
 
 
